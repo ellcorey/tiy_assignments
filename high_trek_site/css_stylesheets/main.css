@@ -508,6 +508,10 @@ header p {
 		margin: 0em auto;
 	}
 
+	.featured {
+		padding-bottom: 1em;
+	}
+
 	.feature, .feature h1 {
 		font-size: 34px;
 		float: none;
@@ -538,8 +542,8 @@ header p {
 
 	#a01 {
 		margin: .25em auto;
-		max-height: 144px;
-		padding: 24 45 31 37px;
+		min-height: 144px;
+		padding: 1em 4em 2em 2em;
 	}
 
 	#a02 {
