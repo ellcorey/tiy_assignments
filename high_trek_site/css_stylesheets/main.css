@@ -24,7 +24,7 @@ body {
 /* H E A D E R   &   N A V  */
 
 header {
-	background: url(images_ht/hero.jpg);
+	background: url(../images_ht/hero.jpg);
 	background-size: cover;
 	color: white;
 	min-height: 300px;
@@ -201,17 +201,17 @@ main {
 }
 
 #a01 {
-	background: url(images_ht/bluberries.jpg);
+	background: url(../images_ht/bluberries.jpg);
 	background-size: cover;
 }
 
 #a02 {
-	background: url(images_ht/san_francisco.jpg);
+	background: url(../images_ht/san_francisco.jpg);
 	background-size: cover;
 }
 
 #a03 {
-	background: url(images_ht/woods.jpg);
+	background: url(../images_ht/woods.jpg);
 	background-size: cover;
 }
 
@@ -362,7 +362,7 @@ header p {
 @media screen and (min-width: 630px) {
 	main {
 		margin-top: 1.5em;
-		width: 94%;
+		width: 86%;
 	}
 
 	.p-large {
