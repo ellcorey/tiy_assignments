@@ -1,0 +1,92 @@
+/**********************************************
+GENERAL
+**********************************************/
+
+body {
+	background-image: url(images/background_01.jpg);
+	background-size: cover;
+	font-family: 'Source Code Pro';
+	font-size: 10pt;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#header {
+	max-width: 940px;
+	margin: 30 auto;
+}
+
+.wrapper {
+	/*max-width: 940px;*/
+	margin: auto 0;
+	background-color: rgba(194,255,224, .7);
+}
+
+img {
+	margin: 5%;
+	max-height: 200px;
+	margin: 10px 5px;
+	display: inline-block;
+}
+
+#images {
+	text-align: center;
+}
+
+.body {
+	width: 940px;
+	padding: 35px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+p {
+	margin-bottom: 10px;
+}
+/**********************************************
+HEADING
+**********************************************/
+
+h1 {
+	font-family: 'helvetica', sans-serif;
+	font-weight: bold;
+	font-size: 48pt;
+	letter-spacing: -.05em;
+}
+
+h3 {
+	font-family: 'helvetica', sans-serif;
+	font-style: italic;
+	font-size: 24pt;
+	letter-spacing: -.05em;
+	margin: 0px 0 20;
+}
+
+
+
+/**********************************************
+COLORS
+**********************************************/
+
+h1 {
+	color: #FF85AD;
+}
+
+h3 {
+	color: #D6D6D6;
+}
+
+body {
+	color: black;
+}
+
+a, a:visited {
+	color: #FF0066;
+}
+
+a:hover {
+	color: #F0669D;
+}
