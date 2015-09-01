@@ -427,6 +427,11 @@ header p {
 		width: 93%;
 	}
 
+	header {
+		background-position: bottom;
+		min-height: 40%;
+	}
+
 	.column1 {
 		display: block;
 		float: left;
