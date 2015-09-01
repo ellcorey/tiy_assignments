@@ -1,0 +1,360 @@
+@import "variables";
+
+/* LAYOUT */
+
+.wrapper {
+	background-color: #fff;
+	margin: 0 auto;
+	width: 100%;
+
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+
+
+/* HEADER & NAV */
+
+header {
+	background: url(../images_ht/hero.jpg);
+	background-size: cover;
+	color: white;
+	min-height: 300px;
+	padding: 3%;
+	text-align: center;
+	box-sizing: border-box;
+
+	h1 {
+	letter-spacing: .05em;
+	margin: 0;
+	padding-top: 1.2em;
+	}
+
+	p {
+	box-sizing: border-box;
+	font-size: 17pt;
+	font-style: italic;
+	font-weight: 100;
+	letter-spacing: .12em;
+	margin: 0;
+	}
+}
+
+.nav-logo {
+	float: left;
+}
+
+nav {
+
+	ul {
+	float: right;
+	margin: 10px;
+	padding: 0;
+	}
+	
+	li {
+	display: inline-block;
+	float: left;
+	padding-left: 2.5em;
+
+		a {
+		color: #eee;
+		display: inline-block;
+		height: 1.5em;
+		text-decoration: none;
+		vertical-align: middle;
+		}
+	}
+}
+
+#search img, li#search a {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+/* BODY */
+
+/* sizes refer to div physical size */
+
+main {
+	margin: 0 auto;
+	width: 86%;
+}
+
+.p-small, .p-med, .p-large {
+	margin: 30px 0;
+}
+
+.p-small {
+	overflow: hidden;
+
+	&:last-child {
+	margin: 35px 0 38px 0;
+	}
+}
+
+.p-med {
+	box-sizing: border-box;
+	margin-top: 17px;
+	padding-top: 17px;
+	position: relative;
+	
+}
+
+.p-large {
+	border-bottom: $border;
+	clear: left;
+	margin-bottom: 10%;
+	padding-bottom: 5%;
+}
+
+.social {
+	border-radius: 8px;
+	box-sizing: border-box;
+	color: white;
+	margin: 0;
+	padding: 4% 1%;
+	text-align: center;
+}
+
+#social-div {
+	border-bottom: $border;
+	padding: 1em 0 2em 0;
+}
+
+
+
+/* COLUMN LAYOUT */
+
+.col-wrapper {
+	overflow: hidden;
+}
+
+.col {
+	display: block;
+	float: left;
+	width: 49%;
+}
+
+.col:first-child {
+	margin-right: 2%;
+}
+
+
+
+/* IMAGE BLOCKS */
+
+#t02 {
+	border-radius: 50%;
+	float: left;
+	margin-top: 10px;
+	width: 7.621%;
+}
+
+#t03 {
+	color: #a39e9a;
+	float: left;
+	margin: 15px 0 0 10px;
+}
+
+#t04 {
+	clear: both;
+	margin-top: 84px;
+}
+
+#t06 {
+	margin-top: 56px;
+}
+
+#t07 {
+	margin-top: 57px;
+}
+
+#t08 {
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+}
+#t09 {
+	margin-top: 23px;
+	text-align: center;
+}
+#t10 {
+	margin-top: 9px;
+	text-align: center;
+}
+
+#t11 {
+	background-color: #3c5a9a;
+}
+
+#t12 {
+	background-color: #3e729a;
+	margin: 7px 0;
+}
+
+#t13 {
+	background-color: #55aded;
+}
+
+
+
+/* ARTICLE BLOCKS */
+
+.feature {
+	min-height: 217px;
+}
+
+#a01 {
+	background: url(../images_ht/bluberries.jpg);
+	background-size: cover;
+}
+
+#a02 {
+	background: url(../images_ht/san_francisco.jpg);
+	background-size: cover;
+}
+
+#a03 {
+	background: url(../images_ht/woods.jpg);
+	background-size: cover;
+}
+
+.med_screen{
+	display: hidden;
+}
+
+/* FOOTER */
+
+footer {
+	background-color: #373e46;
+	clear: both;
+	color: #d1cac2;
+	height: 195px;
+	padding-top: 45px;
+	box-sizing: border-box;
+
+		ul {
+		padding: 0;
+		text-align: center;
+
+		li {
+		display: inline-block;
+		}
+
+		a {
+		color: #d1cac2;
+		}
+
+		span {
+		padding: 0 1em;
+		}
+	}
+}
+
+.footer-nav {
+	height: 20px;
+	margin-top: 10px;
+}
+
+.footer-logo {
+	display: block;
+	margin: 0 auto;}
+
+.footer_text {
+	text-align: center;
+}
+
+
+
+/* TEXT FORMATTING */
+
+p {
+	font-weight: 100;
+	line-height: 1.5em;
+
+		a {
+		color: #55aded;
+		text-decoration: none;
+	}
+}
+
+
+a {
+	text-decoration: none;
+	color: inherit;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.column2 a {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 38pt;
+	font-weight: 300;
+	margin: 0;
+
+	&:hover {
+	text-decoration: none;
+	}
+}
+
+h2 {
+	font-size: 22pt;
+	font-weight: 300;
+	margin: 0;
+}
+
+h3 {
+	font-size: 14pt;
+	font-weight: 300;
+	margin: -.25em;
+}
+
+h4 {
+	font-weight: 300;
+	font-style: italic;
+}
+
+.featured {
+	text-align: center;
+}
+
+blockquote {
+	background-color: none;
+	box-sizing: border-box;
+	border-left: $border;
+	color: #7e7262;
+	font-weight: 400;
+	font-size: 16pt;
+	font-style: italic;
+	line-height: 1.7em;
+	margin: 0 auto;
+	padding: 0 0 0 30px;
+}
+
+.article-wrapper h1 {
+	box-sizing: border-box;
+	color: #fff;
+	font-weight: 700;
+	margin: 42px auto;
+	padding: 1em 2em 1em 1em;	
+}
+
+@import "media630px";
+@import "media800px";
+
+
+
+
+
+
+

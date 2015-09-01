@@ -1,0 +1,103 @@
+@media screen and (min-width: 800px) {
+	main {
+		margin-top: 1.5em;
+		width: 93%;
+	}
+
+	header {
+		background-position: center;
+		min-height: 40%;
+	}
+
+	.column1 {
+		display: block;
+		float: left;
+		max-width: 60%;
+		margin-right: 3.75%;
+	}
+
+	.column2 {
+		overflow: hidden;
+		float: none;
+	}
+
+	.profile {
+		float: none;
+		width: 100%
+	}
+
+	.p-small {
+		margin-top: 0;
+		padding: 0;
+	}
+
+	.p-med {
+		margin-top: 0;
+		padding: 0;
+	}
+
+	.p-large {
+		border: none;
+	}
+
+	#social-div {
+		margin: 0 0 1.5em 0;
+		padding: 0 0 1.5em 0;
+	}
+
+	.social {
+		display: inline-block;
+		font-size: 13pt;
+		margin: none;
+		padding: 5.5% 0;
+		width: 32.5%;
+	}
+
+	.article-wrapper {
+		display: block;
+		height: 100%;
+		margin: 0em auto;
+	}
+
+	.featured {
+		padding-bottom: 1em;
+	}
+
+	.feature, .feature h1 {
+		font-size: 34px;
+		float: none;
+		min-height: 0;
+		margin: 0;
+		width: 100%;
+	}
+
+	#t08 {
+		margin-top: 3.5%;
+	}
+
+	.med_screen {
+		overflow: hidden;
+	}
+
+	#a02, #a03 {
+		background-position: center;
+		background-repeat: no-repeat;
+		display: block;
+		font-size: 19pt;
+		float: left;
+		height: 144px;
+		margin: 0;
+		padding: 30px;
+		width: 49%;
+	}
+
+	#a01 {
+		margin: .25em auto;
+		min-height: 144px;
+		padding: 1em 4em 2em 2em;
+	}
+
+	#a02 {
+		margin-right: 2%;
+	}
+}
