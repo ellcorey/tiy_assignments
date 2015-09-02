@@ -9,14 +9,14 @@
 		min-height: 40%;
 	}
 
-	.column1 {
+	.blog_entry {
 		display: block;
 		float: left;
 		max-width: 60%;
 		margin-right: 3.75%;
 	}
 
-	.column2 {
+	.sidebar {
 		overflow: hidden;
 		float: none;
 	}
@@ -24,20 +24,6 @@
 	.profile {
 		float: none;
 		width: 100%
-	}
-
-	.p-small {
-		margin-top: 0;
-		padding: 0;
-	}
-
-	.p-med {
-		margin-top: 0;
-		padding: 0;
-	}
-
-	.p-large {
-		border: none;
 	}
 
 	#social-div {
