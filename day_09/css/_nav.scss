@@ -1,0 +1,25 @@
+nav {
+	background-color: #f7f8fb;
+	clear: both;
+	height: 2.5em;
+	padding: .25em;
+
+		ul {
+			margin: 0;
+			padding: .5em;
+
+			li {
+				display: inline-block;
+				text-decoration: none;
+				vertical-align: center;
+
+					&:last-child {
+						float:right;
+					}
+
+			span {
+				width: 10%;
+			}
+		}
+	}
+}
