@@ -1,0 +1,39 @@
+@mixin em_conv($font-size) {
+	font-size: ($font-size*16) + px; 
+	font-size: $font-size + em;
+}
+
+
+
+h1, h2, h3,h4,h5,h6 {
+	margin: 0;
+	line-height: 1.5em;
+}
+
+h1 {
+	@include em_conv(3);
+}
+
+h2 {
+	@include em_conv(2.5);
+}
+
+h3 {
+	@include em_conv(1);
+}
+
+h4 {
+	@include em_conv(.75);
+}
+
+h5 {
+	@include em_conv(3);
+}
+
+h6 {
+	@include em_conv(3);
+}
+
+p {
+	@include em_conv(.75);
+}

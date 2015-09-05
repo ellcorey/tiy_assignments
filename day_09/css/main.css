@@ -370,35 +370,81 @@ nav {
       vertical-align: center; }
       nav ul li:last-child {
         float: right; }
-      nav ul li span {
-        width: 10%; }
 
-section {
-  border-bottom: .125em solid #f7f8fb;
+.section_sm {
+  border-bottom: .0625em solid #dcdce0;
   clear: both;
-  line-height: .1em;
-  overflow: hidden; }
-  section .article_info {
-    float: left; }
-  section h5 {
+  overflow: hidden;
+  position: relative; }
+  .section_sm .article_info {
+    float: left;
+    width: 80%; }
+  .section_sm h3 {
+    padding: .5em; }
+  .section_sm h5 {
     color: #99999c;
-    font-size: .75em; }
-  section img {
-    float: right;
-    width: 20%; }
+    font-size: .75em;
+    padding-right: 3em;
+    box-sizing: border-box; }
+  .section_sm #dean, .section_sm #cartoon, .section_sm #holga, .section_sm #googogle, .section_sm #jcrew, .section_sm #tumblr {
+    background: #fff url("../images/love_bug.jpg") 0 0 no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    width: 80px; }
+  .section_sm #cartoon {
+    background: #fff url("../images/cartoon.jpg") 0 0 no-repeat;
+    background-size: cover;
+    background-position: 50%; }
+  .section_sm #holga {
+    background: #fff url("../images/instagram.jpg") 0 0 no-repeat;
+    background-size: cover;
+    background-position: 50%; }
+  .section_sm #googogle {
+    background: #fff url("../images/google.jpg") 0 0 no-repeat;
+    background-size: cover;
+    background-position: 50%; }
+  .section_sm #jcrew {
+    background: #fff url("../images/jcrew.jpg") 0 0 no-repeat;
+    background-size: cover;
+    background-position: 50%; }
+  .section_sm #tumblr {
+    background: #fff url("../images/tumblr.jpg") 0 0 no-repeat;
+    background-size: cover;
+    background-position: 50%; }
 
-section {
-  border: 2px solid #red;
-  clear: both;
-  line-height: .1em;
-  overflow: hidden; }
-  section .article_info {
-    float: left; }
-  section h5 {
-    color: #99999c;
-    font-size: .75em; }
-  section img {
-    float: right;
-    width: 20%; }
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  line-height: 1.5em; }
+
+h1 {
+  font-size: 48px;
+  font-size: 3em; }
+
+h2 {
+  font-size: 40px;
+  font-size: 2.5em; }
+
+h3 {
+  font-size: 16px;
+  font-size: 1em; }
+
+h4 {
+  font-size: 12px;
+  font-size: 0.75em; }
+
+h5 {
+  font-size: 48px;
+  font-size: 3em; }
+
+h6 {
+  font-size: 48px;
+  font-size: 3em; }
+
+p {
+  font-size: 12px;
+  font-size: 0.75em; }
 
 /*# sourceMappingURL=main.css.map */

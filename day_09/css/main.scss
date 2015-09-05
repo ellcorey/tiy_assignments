@@ -3,24 +3,4 @@
 
 @import 'nav';
 @import 'section';
-
-section {
-	border: 2px solid #red;
-	clear: both;
-	line-height: .1em;
-	overflow: hidden;
-	
-	.article_info {
-		float: left;
-	}
-
-	h5 {
-		color: #99999c;
-		font-size: .75em;
-	}
-
-	img {
-		float: right;
-		width: 20%;
-	}
-}
+@import 'styles';

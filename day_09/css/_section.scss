@@ -1,20 +1,68 @@
-section {
-	border-bottom: .125em solid #f7f8fb;
+.section_sm {
+	border-bottom: .0625em solid #dcdce0;
 	clear: both;
-	line-height: .1em;
 	overflow: hidden;
-	
+	position: relative;
+
 	.article_info {
 		float: left;
+		width: 80%;
+	}
+
+	h3 {
+		padding: .5em;
 	}
 
 	h5 {
 		color: #99999c;
 		font-size: .75em;
+		padding-right: 3em;
+		box-sizing: border-box;
 	}
 
-	img {
-		float: right;
-		width: 20%;
+	#dean {
+		background: #fff url('../images/love_bug.jpg') 0 0 no-repeat;
+		background-size: cover;
+		background-position: 50%;
+		height: 100%;
+		position: absolute;
+		right: 0;
+		width: 80px;
 	}
+
+	#cartoon {
+		@extend #dean;
+		background: #fff url('../images/cartoon.jpg') 0 0 no-repeat;
+		background-size: cover;
+		background-position: 50%;
+	}
+
+	#holga {
+		@extend #dean;
+		background: #fff url('../images/instagram.jpg') 0 0 no-repeat;
+		background-size: cover;
+		background-position: 50%;
+	}
+
+	#googogle {
+		@extend #dean;
+		background: #fff url('../images/google.jpg') 0 0 no-repeat;
+		background-size: cover;
+		background-position: 50%;
+	}
+
+	#jcrew {
+		@extend #dean;
+		background: #fff url('../images/jcrew.jpg') 0 0 no-repeat;
+		background-size: cover;
+		background-position: 50%;
+	}
+
+	#tumblr {
+		@extend #dean;
+		background: #fff url('../images/tumblr.jpg') 0 0 no-repeat;
+		background-size: cover;
+		background-position: 50%;
+	}
+
 }
