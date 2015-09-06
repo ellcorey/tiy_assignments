@@ -1,24 +1,32 @@
-.section_sm {
+section {
+	background: #fff;
 	border-bottom: .0625em solid #dcdce0;
-	clear: both;
 	overflow: hidden;
+	padding-left: .75em;
 	position: relative;
 
-	.article_info {
-		float: left;
-		width: 75%;
-	}
-
 	h3 {
-		padding: .5em;
-		padding-right: 3em;
+		box-sizing: border-box;
+		float: left;
+		font-weight: 700;
+		padding: .8em 2em 0 .5em;
 		width: 80%;
 	}
 
-	h5 {
+	p {
+		clear: left;
 		color: #99999c;
-		font-size: .75em;
-		box-sizing: border-box;
+		padding: 0 .5em;
+	}
+
+	.pub_icon {
+		visibility: hidden;
+	}
+
+	.action_icons {
+		height: 1.25em;
+		margin: .5em 0;
+		width: 80%;
 	}
 
 	#dean {
@@ -29,6 +37,13 @@
 		position: absolute;
 		right: 0;
 		width: 80px;
+	}
+
+	#tiles {
+		@extend #dean;
+		background: #fff url('../images/tiles.jpg') 0 0 no-repeat;
+		background-size: cover;
+		background-position: 50%;
 	}
 
 	#cartoon {

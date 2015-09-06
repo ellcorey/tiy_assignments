@@ -356,38 +356,76 @@ td,
 th {
   padding: 0; }
 
+.nav_wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 9999; }
+
+.rainbow_border {
+  float: left;
+  height: 2px;
+  width: 25%; }
+
+.rainbow1 {
+  background-color: #afecc3; }
+
+.rainbow2 {
+  background-color: #84c3c0; }
+
+.rainbow3 {
+  background-color: #d45a68; }
+
+.rainbow4 {
+  background-color: #ecbf63; }
+
 nav {
   background-color: #f7f8fb;
+  border-bottom: .0625em solid #dcdce0;
   clear: both;
   height: 2.5em;
-  padding: .25em; }
+  padding: .3em; }
   nav ul {
     margin: 0;
-    padding: .5em; }
+    padding: .75em; }
+    nav ul a {
+      font-weight: 700;
+      font-size: .95em;
+      text-decoration: none; }
     nav ul li {
       display: inline-block;
-      text-decoration: none;
-      vertical-align: center; }
+      vertical-align: middle; }
+      nav ul li .spacer {
+        display: inline-block;
+        width: 25px; }
       nav ul li:last-child {
         float: right; }
 
-.section_sm {
+section {
+  background: #fff;
   border-bottom: .0625em solid #dcdce0;
-  clear: both;
   overflow: hidden;
+  padding-left: .75em;
   position: relative; }
-  .section_sm .article_info {
+  section h3 {
+    box-sizing: border-box;
     float: left;
-    width: 75%; }
-  .section_sm h3 {
-    padding: .5em;
-    padding-right: 3em;
+    font-weight: 700;
+    padding: .8em 2em 0 .5em;
     width: 80%; }
-  .section_sm h5 {
+  section p {
+    clear: left;
     color: #99999c;
-    font-size: .75em;
-    box-sizing: border-box; }
-  .section_sm #dean, .section_sm #cartoon, .section_sm #holga, .section_sm #googogle, .section_sm #jcrew, .section_sm #tumblr {
+    padding: 0 .5em; }
+  section .pub_icon {
+    visibility: hidden; }
+  section .action_icons {
+    height: 1.25em;
+    margin: .5em 0;
+    width: 80%; }
+  section #dean, section #tiles, section #cartoon, section #holga, section #googogle, section #jcrew, section #tumblr {
     background: #fff url("../images/love_bug.jpg") 0 0 no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -395,30 +433,39 @@ nav {
     position: absolute;
     right: 0;
     width: 80px; }
-  .section_sm #cartoon {
+  section #tiles {
+    background: #fff url("../images/tiles.jpg") 0 0 no-repeat;
+    background-size: cover;
+    background-position: 50%; }
+  section #cartoon {
     background: #fff url("../images/cartoon.jpg") 0 0 no-repeat;
     background-size: cover;
     background-position: 50%; }
-  .section_sm #holga {
+  section #holga {
     background: #fff url("../images/instagram.jpg") 0 0 no-repeat;
     background-size: cover;
     background-position: 50%; }
-  .section_sm #googogle {
+  section #googogle {
     background: #fff url("../images/google.jpg") 0 0 no-repeat;
     background-size: cover;
     background-position: 50%; }
-  .section_sm #jcrew {
+  section #jcrew {
     background: #fff url("../images/jcrew.jpg") 0 0 no-repeat;
     background-size: cover;
     background-position: 50%; }
-  .section_sm #tumblr {
+  section #tumblr {
     background: #fff url("../images/tumblr.jpg") 0 0 no-repeat;
     background-size: cover;
     background-position: 50%; }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  line-height: 1.5em; }
+body {
+  background-color: #f4f4f6;
+  margin: 53px 0; }
+
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5em;
+  margin: 0; }
 
 h1 {
   font-size: 48px;
@@ -429,8 +476,8 @@ h2 {
   font-size: 2.5em; }
 
 h3 {
-  font-size: 16px;
-  font-size: 1em; }
+  font-size: 15.68px;
+  font-size: 0.98em; }
 
 h4 {
   font-size: 12px;
@@ -449,10 +496,23 @@ p {
   font-size: 0.75em; }
 
 @media screen and (min-width: 600px) {
-  section {
-    max-width: 270px;
-    max-height: 250px; }
-    section h3, section h5, section .article_thumb {
-      float: left; } }
+  main {
+    padding: .78em; }
+
+  .section_md {
+    background-color: #fff;
+    clear: none;
+    float: left;
+    max-width: 370px;
+    padding: .78em; }
+    .section_md .icon {
+      width: 25px;
+      height: 25px; }
+    .section_md .article_thumb {
+      height: 150px; }
+    .section_md h3, .section_md h5, .section_md .icon {
+      float: left; }
+    .section_md .article_thumb, .section_md img, .section_md h3, .section_md h5 {
+      width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,5 +1,5 @@
 $tot_width: 100%;
-$col_total: 5;
+$col_total: 6;
 $gut_width: 1%;
 $col_width: ($tot_width - (($col_total - 1)*$gut_width))/$col_total;
 

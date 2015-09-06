@@ -1,12 +1,32 @@
 @media screen and(min-width: 600px) {
 	
 
-	section {
-		max-width: 270px;
-		max-height: 250px;
-	
-	h3, h5, .article_thumb {
+	main {
+		padding: .78em;
+	}
+
+	.section_md {
+		background-color: #fff;
+		clear: none;
 		float: left;
+		max-width: 370px;
+		padding: .78em;
+
+		.icon {
+			width: 25px;
+			height:25px;
+		}
+
+		.article_thumb {
+			height: 150px;
+		}
+	
+		h3, h5, .icon {
+			float: left;
+		}
+
+		.article_thumb, img, h3, h5  {
+			width: 100%;
 		}
 	}
 }
