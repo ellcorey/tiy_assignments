@@ -378,13 +378,14 @@ nav {
   position: relative; }
   .section_sm .article_info {
     float: left;
-    width: 80%; }
+    width: 75%; }
   .section_sm h3 {
-    padding: .5em; }
+    padding: .5em;
+    padding-right: 3em;
+    width: 80%; }
   .section_sm h5 {
     color: #99999c;
     font-size: .75em;
-    padding-right: 3em;
     box-sizing: border-box; }
   .section_sm #dean, .section_sm #cartoon, .section_sm #holga, .section_sm #googogle, .section_sm #jcrew, .section_sm #tumblr {
     background: #fff url("../images/love_bug.jpg") 0 0 no-repeat;
@@ -446,5 +447,12 @@ h6 {
 p {
   font-size: 12px;
   font-size: 0.75em; }
+
+@media screen and (min-width: 600px) {
+  section {
+    max-width: 270px;
+    max-height: 250px; }
+    section h3, section h5, section .article_thumb {
+      float: left; } }
 
 /*# sourceMappingURL=main.css.map */
