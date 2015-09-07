@@ -1,32 +1,32 @@
-@media screen and(min-width: 600px) {
+@media screen and (min-width: 440px) {
 	
-
+	
 	main {
-		padding: .78em;
+		padding: 1.25em;
 	}
 
 	.section_md {
-		background-color: #fff;
-		clear: none;
-		float: left;
-		max-width: 370px;
-		padding: .78em;
+		@include grid(3);
+		padding: 0;
+		margin-bottom: 1.25em;
+		height: 280px;
 
-		.icon {
-			width: 25px;
-			height:25px;
+		.pub_icon {
+			display: inline-block;
 		}
 
-		.article_thumb {
-			height: 150px;
+		.action_icons {
+			display: none;
 		}
 	
-		h3, h5, .icon {
-			float: left;
-		}
-
-		.article_thumb, img, h3, h5  {
-			width: 100%;
+		#dean, #tiles, #cartoon, #holga, #googogle, #jcrew, #tumblr {
+			clear: both;
+			display: block;
+			height: 8.5em;
+			position: static;
+			right: auto;
+			top: auto;
+			width: auto;
+			}
 		}
 	}
-}

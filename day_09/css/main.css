@@ -416,11 +416,12 @@ section {
     padding: .8em 2em 0 .5em;
     width: 80%; }
   section p {
-    clear: left;
     color: #99999c;
     padding: 0 .5em; }
   section .pub_icon {
-    visibility: hidden; }
+    float: left;
+    margin-right: .25em;
+    vertical-align: middle; }
   section .action_icons {
     height: 1.25em;
     margin: .5em 0;
@@ -495,24 +496,30 @@ p {
   font-size: 12px;
   font-size: 0.75em; }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 440px) {
   main {
-    padding: .78em; }
+    padding: 1.25em; }
 
   .section_md {
-    background-color: #fff;
-    clear: none;
+    width: 48%;
     float: left;
-    max-width: 370px;
-    padding: .78em; }
-    .section_md .icon {
-      width: 25px;
-      height: 25px; }
-    .section_md .article_thumb {
-      height: 150px; }
-    .section_md h3, .section_md h5, .section_md .icon {
-      float: left; }
-    .section_md .article_thumb, .section_md img, .section_md h3, .section_md h5 {
-      width: 100%; } }
+    margin-right: 4%;
+    padding: 0;
+    margin-bottom: 1.25em;
+    height: 280px; }
+    .section_md:nth-child(even) {
+      margin-right: 0; }
+    .section_md .pub_icon {
+      display: inline-block; }
+    .section_md .action_icons {
+      display: none; }
+    .section_md #dean, .section_md section #tiles, section .section_md #tiles, .section_md section #cartoon, section .section_md #cartoon, .section_md section #holga, section .section_md #holga, .section_md section #googogle, section .section_md #googogle, .section_md section #jcrew, section .section_md #jcrew, .section_md section #tumblr, section .section_md #tumblr, .section_md #tiles, .section_md #cartoon, .section_md #holga, .section_md #googogle, .section_md #jcrew, .section_md #tumblr {
+      clear: both;
+      display: block;
+      height: 8.5em;
+      position: static;
+      right: auto;
+      top: auto;
+      width: auto; } }
 
 /*# sourceMappingURL=main.css.map */

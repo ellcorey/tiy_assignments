@@ -14,13 +14,16 @@ section {
 	}
 
 	p {
-		clear: left;
+		// clear: left;
 		color: #99999c;
 		padding: 0 .5em;
 	}
 
 	.pub_icon {
-		visibility: hidden;
+		// display: none;
+		float: left;
+		margin-right: .25em;
+		vertical-align: middle;
 	}
 
 	.action_icons {
