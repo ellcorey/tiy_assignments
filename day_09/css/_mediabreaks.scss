@@ -1,4 +1,4 @@
-@media screen and (min-width: 440px) {
+@media screen and (min-width: 530px) {
 	
 	
 	main {
@@ -11,6 +11,14 @@
 		margin-bottom: 1.25em;
 		height: 280px;
 
+		.pub_info {
+			background-color: #fff;
+			bottom: .5em;
+			left: .5em;
+			position: absolute;
+			width: 100%;
+		}
+
 		.pub_icon {
 			display: inline-block;
 		}
@@ -22,7 +30,7 @@
 		#dean, #tiles, #cartoon, #holga, #googogle, #jcrew, #tumblr {
 			clear: both;
 			display: block;
-			height: 8.5em;
+			height: 9.5em;
 			position: static;
 			right: auto;
 			top: auto;

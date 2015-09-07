@@ -1,12 +1,12 @@
 section {
 	background: #fff;
 	border-bottom: .0625em solid #dcdce0;
+	min-height: 110px;
 	overflow: hidden;
 	padding-left: .75em;
 	position: relative;
 
 	h3 {
-		box-sizing: border-box;
 		float: left;
 		font-weight: 700;
 		padding: .8em 2em 0 .5em;
@@ -14,13 +14,21 @@ section {
 	}
 
 	p {
-		// clear: left;
+		box-sizing: border-box;
 		color: #99999c;
-		padding: 0 .5em;
+		display: inline-block;
+	}
+
+	a {
+		text-decoration: none;
+
+		&:hover {
+			color: #61c2bd;
+		}
 	}
 
 	.pub_icon {
-		// display: none;
+		display: none;
 		float: left;
 		margin-right: .25em;
 		vertical-align: middle;
