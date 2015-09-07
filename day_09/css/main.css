@@ -386,10 +386,11 @@ nav {
   border-bottom: .0625em solid #dcdce0;
   clear: both;
   height: 2.5em;
-  padding: .3em; }
+  padding: .28em .78em; }
   nav ul {
+    height: 100%;
     margin: 0;
-    padding: .75em; }
+    padding: .78em; }
     nav ul a {
       font-weight: 700;
       font-size: .95em;
@@ -399,9 +400,25 @@ nav {
       vertical-align: middle; }
       nav ul li .spacer {
         display: inline-block;
-        width: 25px; }
+        width: 1.25em; }
+      nav ul li .upgrade {
+        border-left: .0625em solid #dcdce0;
+        display: inline;
+        height: 2.5em;
+        margin-left: 1em;
+        padding-left: 1em; }
+      nav ul li:first-child {
+        margin-right: 1.25em; }
       nav ul li:last-child {
-        float: right; }
+        float: right;
+        height: 100%; }
+
+/* 	Hidden elements
+	-visibility is switched on in subsequent media queries
+
+*/
+.list_options, .hidden_sm, .pocket_logo {
+  display: none; }
 
 section {
   background: #fff;
@@ -481,8 +498,9 @@ a {
     color: #61c2bd; }
 
 h1 {
-  font-size: 48px;
-  font-size: 3em; }
+  font-size: 36px;
+  font-size: 2.25em;
+  font-weight: 300; }
 
 h2 {
   font-size: 40px;
@@ -519,7 +537,7 @@ p {
     padding: 0;
     margin-bottom: 1.25em;
     height: 280px; }
-    .section_md:nth-child(even) {
+    .section_md:nth-child(odd) {
       margin-right: 0; }
     .section_md .pub_info {
       background-color: #fff;
@@ -539,5 +557,37 @@ p {
       right: auto;
       top: auto;
       width: auto; } }
+@media screen and (min-width: 610px) {
+  .hidden_md {
+    display: none; }
+
+  .hidden_sm {
+    display: inline-block; }
+
+  .list_options {
+    display: block; }
+    .list_options ul {
+      padding: 0; }
+    .list_options li {
+      display: inline-block;
+      vertical-align: bottom; }
+      .list_options li .spacer {
+        display: inline-block;
+        width: 20px; }
+      .list_options li:last-child {
+        float: right; } }
+@media screen and (min-width: 1040px) {
+  .hidden_lg {
+    display: none; }
+
+  .pocket_logo {
+    display: inline-block; }
+
+  .section_md {
+    width: 30.66667%;
+    float: left;
+    margin-right: 4%; }
+    .section_md:nth-child(odd) {
+      margin-right: 0; } }
 
 /*# sourceMappingURL=main.css.map */

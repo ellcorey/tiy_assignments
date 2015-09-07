@@ -3,6 +3,9 @@
 
 @import 'grid';
 @import 'nav';
+@import 'hidden';
 @import 'section';
 @import 'styles';
-@import 'mediabreaks';
+@import 'mediaquery_440px';
+@import 'mediaquery_610px';
+@import 'mediaquery_1040px';

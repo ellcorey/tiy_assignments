@@ -1,0 +1,17 @@
+@media screen and (min-width: 1040px) {
+	
+	.hidden_lg {
+		display: none;
+	}
+
+	.pocket_logo {
+		display: inline-block;
+	}
+
+	.section_md {
+		@include grid(2);
+		
+
+	}
+
+}

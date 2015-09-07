@@ -24,7 +24,8 @@ a {
 }
 
 h1 {
-	@include em_conv(3);
+	@include em_conv(2.25);
+	font-weight: 300;
 }
 
 h2 {

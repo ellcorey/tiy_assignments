@@ -35,11 +35,12 @@ nav {
 	border-bottom: .0625em solid #dcdce0;
 	clear: both;
 	height: 2.5em;
-	padding: .3em;
+	padding: .28em .78em;
 
 		ul {
+			height: 100%;
 			margin: 0;
-			padding: .75em;
+			padding: .78em;
 
 			a {
 				font-weight: 700;
@@ -53,11 +54,24 @@ nav {
 					
 					.spacer {
 						display: inline-block;
-						width: 25px;
+						width: 1.25em;
+					}
+
+					.upgrade {
+						border-left: .0625em solid #dcdce0;
+						display: inline;
+						height: 2.5em;
+						margin-left: 1em;
+						padding-left: 1em;
+					}
+
+					&:first-child {
+						margin-right: 1.25em;
 					}
 
 					&:last-child {
-						float:right;
+						float: right;
+						height: 100%;
 					}
 
 		}

@@ -1,0 +1,32 @@
+@media screen and (min-width: 610px) {
+	
+	.hidden_md {
+		display: none;
+	}
+
+	.hidden_sm {
+		display: inline-block;
+	}
+
+	.list_options {
+		display: block;
+
+		ul {
+			padding: 0;
+		}
+
+		li {
+			display: inline-block;
+			vertical-align: bottom;
+			
+				.spacer {
+					display: inline-block;
+					width: 20px;
+				}
+
+				&:last-child {
+					float:right;
+				}
+			}
+		}
+	}
