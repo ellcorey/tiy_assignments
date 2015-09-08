@@ -417,7 +417,7 @@ nav {
 	-visibility is switched on in subsequent media queries
 
 */
-.list_options, .hidden_sm, .pocket_logo {
+.list_options, .hidden_sm, .pocket_logo, .side_nav {
   display: none; }
 
 section {
@@ -492,6 +492,9 @@ h1, h2, h3, h4, h5, h6, p, a {
   line-height: 1.5em;
   margin: 0; }
 
+li {
+  text-decoration: none; }
+
 a {
   text-decoration: none; }
   a:hover {
@@ -528,6 +531,24 @@ p {
 
 .clearfix {
   clear: both; }
+
+.side_nav {
+  background-color: #f4f4f6;
+  clear: left;
+  float: left;
+  height: 100%;
+  position: fixed;
+  text-decoration: none;
+  width: 12%; }
+  .side_nav div {
+    border: .0625em solid #dcdce0;
+    margin: 1em 0;
+    width: 1.25em; }
+  .side_nav li {
+    text-decoration: none; }
+  .side_nav a {
+    font-weight: 300;
+    text-decoration: none; }
 
 @media screen and (min-width: 530px) {
   main {
@@ -571,7 +592,7 @@ p {
     display: block; }
     .list_options .my_list_title {
       float: left; }
-    .list_options .my_list_icons {
+    .list_options .list_icon {
       display: inline;
       float: right; }
     .list_options ul {
@@ -585,17 +606,26 @@ p {
       .list_options li:last-child {
         float: right; } }
 @media screen and (min-width: 1040px) {
+  main {
+    width: 82%;
+    padding: 0 1%;
+    float: right; }
+
+  .side_nav {
+    display: block; }
+
   .hidden_lg {
     display: none; }
 
   .pocket_logo {
-    display: inline-block; }
+    display: inline-block;
+    margin-right: 2em; }
 
-  .section_md {
+  section.section_md {
     width: 31.33333%;
     float: left;
     margin-right: 3%; }
-    .section_md:nth-child(3n) {
+    section.section_md:nth-of-type(3n) {
       margin-right: 0; } }
 
 /*# sourceMappingURL=main.css.map */

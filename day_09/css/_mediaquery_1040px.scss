@@ -1,15 +1,28 @@
 @media screen and (min-width: 1040px) {
-	
+	main {
+		width:82%;
+		padding: 0 1%;
+		float: right;
+	}
+
+
+	.side_nav {
+		display: block;
+	}
+
 	.hidden_lg {
 		display: none;
 	}
 
 	.pocket_logo {
 		display: inline-block;
+		margin-right: 2em;
 	}
 
-	.section_md {
-		@include grid_lg(2);
+	section {
+		
+		&.section_md {
+			@include grid_lg(2);
+		}
 	}
-
 }

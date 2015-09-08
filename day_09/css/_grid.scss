@@ -18,7 +18,7 @@ $col_width: ($tot_width - (($col_total - 1)*$gut_width))/$col_total;
   float: left;
   margin-right: $gut_width;;
 
-    &:nth-child(3n) {
+    &:nth-of-type(3n) {
     	margin-right: 0;
   }
 }
