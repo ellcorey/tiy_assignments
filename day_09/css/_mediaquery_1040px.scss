@@ -9,9 +9,7 @@
 	}
 
 	.section_md {
-		@include grid(2);
-		
-
+		@include grid_lg(2);
 	}
 
 }

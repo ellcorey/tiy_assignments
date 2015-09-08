@@ -11,6 +11,15 @@
 	.list_options {
 		display: block;
 
+		.my_list_title {
+			float: left;
+		}
+
+		.my_list_icons {
+			display: inline;
+			float: right;
+		}
+
 		ul {
 			padding: 0;
 		}

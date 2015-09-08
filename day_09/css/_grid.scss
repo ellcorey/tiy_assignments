@@ -1,6 +1,6 @@
 $tot_width: 100%;
 $col_total: 6;
-$gut_width: 4%;
+$gut_width: 3%;
 $col_width: ($tot_width - (($col_total - 1)*$gut_width))/$col_total;
 
 @mixin grid($col_num) {
@@ -9,6 +9,16 @@ $col_width: ($tot_width - (($col_total - 1)*$gut_width))/$col_total;
   margin-right: $gut_width;
 
   	&:nth-child(odd) {
+    	margin-right: 0;
+  }
+}
+
+@mixin grid_lg($col_num) {
+  width: ($col_width*$col_num)+(($col_num - 1)*$gut_width);
+  float: left;
+  margin-right: $gut_width;;
+
+    &:nth-child(3n) {
     	margin-right: 0;
   }
 }

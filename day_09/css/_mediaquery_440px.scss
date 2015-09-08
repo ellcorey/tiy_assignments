@@ -5,7 +5,7 @@
 		padding: 1.25em;
 	}
 
-	.section_md {
+	section {
 		@include grid(3);
 		padding: 0;
 		margin-bottom: 1.25em;

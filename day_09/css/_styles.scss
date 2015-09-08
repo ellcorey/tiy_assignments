@@ -5,7 +5,7 @@
 
 body {
 	background-color: #f4f4f6;
-	margin: 53px 0;
+	margin: 3.3125em 0;
 }
 
 h1, h2, h3, h4, h5, h6, p, a {
@@ -50,4 +50,8 @@ h6 {
 
 p {
 	@include em_conv(.75);
+}
+
+.clearfix {
+	clear: both;
 }

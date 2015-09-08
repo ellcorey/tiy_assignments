@@ -484,7 +484,7 @@ section {
 
 body {
   background-color: #f4f4f6;
-  margin: 53px 0; }
+  margin: 3.3125em 0; }
 
 h1, h2, h3, h4, h5, h6, p, a {
   color: #313131;
@@ -526,30 +526,33 @@ p {
   font-size: 12px;
   font-size: 0.75em; }
 
+.clearfix {
+  clear: both; }
+
 @media screen and (min-width: 530px) {
   main {
     padding: 1.25em; }
 
-  .section_md {
-    width: 48%;
+  section {
+    width: 48.5%;
     float: left;
-    margin-right: 4%;
+    margin-right: 3%;
     padding: 0;
     margin-bottom: 1.25em;
     height: 280px; }
-    .section_md:nth-child(odd) {
+    section:nth-child(odd) {
       margin-right: 0; }
-    .section_md .pub_info {
+    section .pub_info {
       background-color: #fff;
       bottom: .5em;
       left: .5em;
       position: absolute;
       width: 100%; }
-    .section_md .pub_icon {
+    section .pub_icon {
       display: inline-block; }
-    .section_md .action_icons {
+    section .action_icons {
       display: none; }
-    .section_md #dean, .section_md section #tiles, section .section_md #tiles, .section_md section #cartoon, section .section_md #cartoon, .section_md section #holga, section .section_md #holga, .section_md section #googogle, section .section_md #googogle, .section_md section #jcrew, section .section_md #jcrew, .section_md section #tumblr, section .section_md #tumblr, .section_md #tiles, .section_md #cartoon, .section_md #holga, .section_md #googogle, .section_md #jcrew, .section_md #tumblr {
+    section #dean, section #tiles, section #cartoon, section #holga, section #googogle, section #jcrew, section #tumblr, section #tiles, section #cartoon, section #holga, section #googogle, section #jcrew, section #tumblr {
       clear: both;
       display: block;
       height: 9.5em;
@@ -566,6 +569,11 @@ p {
 
   .list_options {
     display: block; }
+    .list_options .my_list_title {
+      float: left; }
+    .list_options .my_list_icons {
+      display: inline;
+      float: right; }
     .list_options ul {
       padding: 0; }
     .list_options li {
@@ -584,10 +592,10 @@ p {
     display: inline-block; }
 
   .section_md {
-    width: 30.66667%;
+    width: 31.33333%;
     float: left;
-    margin-right: 4%; }
-    .section_md:nth-child(odd) {
+    margin-right: 3%; }
+    .section_md:nth-child(3n) {
       margin-right: 0; } }
 
 /*# sourceMappingURL=main.css.map */
