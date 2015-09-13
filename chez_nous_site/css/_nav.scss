@@ -1,0 +1,27 @@
+nav {
+	background: #3e3437;
+	border-bottom: .1rem solid #766f6f;
+	box-sizing: border-box;
+	height: 40px;
+	padding: 10px;
+	position: fixed;
+	width: 100%;
+
+	ul {
+		float: left;
+	}
+
+	li {
+		color: #fff;
+		display: inline-block;
+		font-family: 'Josefin sans', sans-serif;
+		font-size: 1.15rem;
+		font-weight: 400;
+		padding: 1%;
+		text-decoration: none;
+	
+		&:hover {
+			color: #71cdc2;
+		}
+	}
+}
