@@ -1,6 +1,15 @@
+/* bourbon usage across all 3 page sizes.
+
+neat grid system incorporated beginning at 500px... disregard media query file names */
+
 @import 'reset';
 @import 'bourbon/bourbon';
+@import 'neat/neat';
 @import 'styles';
 @import 'nav';
 @import 'menu_style';
 @import 'footer';
+
+// media queries follow
+
+@import 'mediaquery_500px';

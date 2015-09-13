@@ -1,3 +1,6 @@
+/* bourbon usage across all 3 page sizes.
+
+neat grid system incorporated beginning at 500px... disregard media query file names */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -44,6 +47,12 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
 
 body {
   background: #fbfbf2; }
@@ -105,5 +114,23 @@ footer {
   height: 40px;
   position: fixed;
   width: 100%; }
+
+@media screen and (min-width: 500px) {
+  section .menu_wrapper {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto; }
+    section .menu_wrapper::after {
+      clear: both;
+      content: "";
+      display: table; }
+
+  .menu {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .menu:last-child {
+      margin-right: 0; } }
 
 /*# sourceMappingURL=main.css.map */

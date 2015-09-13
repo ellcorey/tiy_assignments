@@ -1,0 +1,9 @@
+@media  screen and(min-width: 500px) {
+	section .menu_wrapper {
+		@include outer-container;
+	}
+
+	.menu {
+		@include span-columns(6);
+	}
+}
