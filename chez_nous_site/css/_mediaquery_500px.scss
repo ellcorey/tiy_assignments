@@ -14,36 +14,10 @@
 	}
 
 	#contact_info {
-		display: inline-block;
+		display: block;
 	}
 
-	// 	nav {
-	// background: none;
-	// border-bottom: none;
-	// box-sizing: border-box;
-	// display: inline;
-	// float: right;
-	// height: 40px;
-	// margin-top: 65px;
-	// padding: 10px;
-	// position: static;
-
-	// 	ul {
-	// 		float: right;
-	// 	}
-
-	// 	li {
-	// 		color: $primary-color;
-	// 		display: inline-block;
-	// 		font-family: 'Josefin sans', sans-serif;
-	// 		font-size: 1.5rem;
-	// 		font-weight: 400;
-	// 		padding: 1%;
-	// 		text-decoration: none;
-		
-	// 		&:hover {
-	// 			color: $accent01;
-	// 		}
-	// 	}
-	// }
+	nav {
+		right: 0;
+	}
 }

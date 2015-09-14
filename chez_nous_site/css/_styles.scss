@@ -1,6 +1,6 @@
 $primary-color: #344254;
 $background-color: #FFFAF4;
-$text-color: #3e3437;
+$text-color: #4A1326;
 $accent01: #78CDB0;
 
 body {
@@ -39,4 +39,21 @@ h4 {
 p {
 	font-family: 'Roboto Slab', serif;
 	font-weight: 100;
+}
+
+.current {
+	color: $accent01;
+}
+
+#large_menu {
+
+	li {
+		color: $text-color;
+		font-family: "Josefin sans", sans-serif;
+		font-size: 1.75rem;
+
+		&:hover {
+			color: $accent01;
+		}
+	}
 }

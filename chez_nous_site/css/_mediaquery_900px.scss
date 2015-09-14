@@ -1,10 +1,36 @@
 @media  screen and(min-width: 900px) {
+	
 	footer {
 		height: 70px;
 	}
 
+	main {
+		padding-bottom: 5rem;
+	}
+
 	.large_screen {
 		display: block;
+		border-top: 2px solid lighten(#FF5D8B, 20%);
+		background: rgba(255, 93, 139, .7);
+		bottom: 0;
+		height: 50px;
+		margin-bottom: 70px;
+		position: fixed;
+		width: 100%;
+
+	ul {
+		padding: .1rem .5rem;
+		text-align: center;
+	}
+
+	li {
+		display: inline-block;
+		margin: .5em;
+		}
+	}	
+
+	.social_icons {
+		float: right;
 	}
 
 	#logo_full {
@@ -13,8 +39,8 @@
 
 	.menu {
 		@include span-columns(4);
-		overflow: hidden;
 		@include omega (3n);
+		verflow: hidden;
 
 		&:last-child {
 			clear: both;
@@ -30,11 +56,8 @@
 		}
 	}
 
-
 	#menu_title {
 		display: block;
-		// width: 48%;
-		// float: left;
 	}
 
 	#menu_icon {
@@ -44,34 +67,4 @@
 	#logo {
 		display: none;
 	}
-
-	// nav {
-	// background: none;
-	// border-bottom: none;
-	// box-sizing: border-box;
-	// display: inline;
-	// float: right;
-	// height: 40px;
-	// margin-top: 65px;
-	// padding: 10px;
-	// position: static;
-
-	// 	ul {
-	// 		float: right;
-	// 	}
-
-	// 	li {
-	// 		color: $primary-color;
-	// 		display: inline-block;
-	// 		font-family: 'Josefin sans', sans-serif;
-	// 		font-size: 1.5rem;
-	// 		font-weight: 400;
-	// 		padding: 1%;
-	// 		text-decoration: none;
-		
-	// 		&:hover {
-	// 			color: #71cdc2;
-	// 		}
-	// 	}
-	// }
 }

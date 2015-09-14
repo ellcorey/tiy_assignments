@@ -1,20 +1,23 @@
 footer {
 	background: $primary-color;
-	border-top: .1rem solid #766f6f;
+	border-top: .1rem solid lighten($primary-color, 8%);
 	bottom: 0;
 	height: 50px;
+	text-align: center;
 	position: fixed;
 	width: 100%;
 }
 
 #logo {
-	float: left;
+	left: .5rem;
 	height: 40px;
 	margin: 3px .75rem;
+	position: fixed;
 }
 
 #menu_icon {
-	float: right;
 	height: 25px;
 	margin: .75rem;
+	right: .5rem;
+	position: fixed;
 }

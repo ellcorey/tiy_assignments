@@ -3,8 +3,10 @@
 #contact_info {
 	color: #fff;
 	display: none;
-	margin: 0 auto;
-	text-align: center;
+	position: fixed;
+	width: 75%;
+	left: 50%;
+	margin: 1.0625rem 0 0 -37.5%;
 }
 
 #logo_full {
@@ -16,23 +18,8 @@
 
 .large_screen {
 	display: none;
-	background: #555;
-	bottom: 0;
-	height: 35px;
-	margin-bottom: 70px;
-	position: fixed;
-	width: 100%;
+}
 
-	li {
-		display: inline-block;
-		margin: 0 auto;
-	}
-
-	.large_menu {
-		
-	}
-
-	.social_icons {
-		float: right;
-	}
+.social_icons {
+	display: none;
 }
