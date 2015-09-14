@@ -2,7 +2,22 @@ footer {
 	background: #3e3437;
 	border-top: .1rem solid #766f6f;
 	bottom: 0;
-	height: 40px;
+	height: 50px;
 	position: fixed;
 	width: 100%;
+}
+
+#logo {
+	float: left;
+}
+
+#menu_icon {
+	float: right;
+}
+
+#contact_info {
+	color: #fff;
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
 }

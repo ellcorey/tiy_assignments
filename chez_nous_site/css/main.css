@@ -1,6 +1,6 @@
 /* bourbon usage across all 3 page sizes.
 
-neat grid system incorporated beginning at 500px... disregard media query file names */
+neat grid system incorporated beginning at 500px...*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -54,6 +54,20 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+/* items hidden by default */
+.large_screen {
+  display: none;
+  background: #555;
+  bottom: 0;
+  height: 35px;
+  margin-bottom: 50px;
+  position: fixed;
+  width: 100%; }
+  .large_screen li {
+    display: inline-block; }
+  .large_screen .social_icons {
+    float: right; }
+
 body {
   background: #fbfbf2; }
 
@@ -77,10 +91,10 @@ h3 {
 
 h4 {
   font-family: 'Roboto Slab', serif;
-  font-weight: 400; }
+  font-weight: 700; }
 
 p {
-  font-weight: 300; }
+  font-weight: 100; }
 
 nav {
   background: #3e3437;
@@ -103,7 +117,7 @@ nav {
     nav li:hover {
       color: #71cdc2; }
 
-.menu li {
+.menu_items li {
   line-height: 1em;
   margin: 1.25em 0; }
 
@@ -111,9 +125,21 @@ footer {
   background: #3e3437;
   border-top: .1rem solid #766f6f;
   bottom: 0;
-  height: 40px;
+  height: 50px;
   position: fixed;
   width: 100%; }
+
+#logo {
+  float: left; }
+
+#menu_icon {
+  float: right; }
+
+#contact_info {
+  color: #fff;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center; }
 
 @media screen and (min-width: 500px) {
   section .menu_wrapper {
@@ -132,5 +158,45 @@ footer {
     width: 48.82117%; }
     .menu:last-child {
       margin-right: 0; } }
+@media screen and (min-width: 900px) {
+  .large_screen {
+    display: block; }
+
+  .menu {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    overflow: hidden; }
+    .menu:last-child {
+      margin-right: 0; }
+
+  #menu_title {
+    display: block;
+    width: 48%;
+    float: left; }
+
+  nav {
+    background: none;
+    border-bottom: none;
+    box-sizing: border-box;
+    float: right;
+    height: 40px;
+    margin-top: 65px;
+    padding: 10px;
+    position: static;
+    width: 50%; }
+    nav ul {
+      float: right; }
+    nav li {
+      color: #3e3437;
+      display: inline-block;
+      font-family: 'Josefin sans', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 400;
+      padding: 1%;
+      text-decoration: none; }
+      nav li:hover {
+        color: #71cdc2; } }
 
 /*# sourceMappingURL=main.css.map */

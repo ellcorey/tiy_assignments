@@ -1,0 +1,23 @@
+/* items hidden by default */
+
+.large_screen {
+	display: none;
+	background: #555;
+	bottom: 0;
+	height: 35px;
+	margin-bottom: 50px;
+	position: fixed;
+	width: 100%;
+
+	li {
+		display: inline-block;
+	}
+
+	.large_menu {
+
+	}
+
+	.social_icons {
+		float: right;
+	}
+}

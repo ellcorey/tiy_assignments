@@ -1,0 +1,46 @@
+@media  screen and(min-width: 900px) {
+	.large_screen {
+		display: block;
+	}
+
+	.menu {
+		@include span-columns(4);
+		overflow: hidden;
+	}
+
+	#menu_title {
+		display: block;
+		width: 48%;
+		float: left;
+	}
+
+	nav {
+	background: none;
+	border-bottom: none;
+	box-sizing: border-box;
+	float: right;
+	height: 40px;
+	margin-top: 65px;
+	padding: 10px;
+	position: static;
+	width: 50%;
+
+		ul {
+			float: right;
+		}
+
+		li {
+			color: $primary-color;
+			display: inline-block;
+			font-family: 'Josefin sans', sans-serif;
+			font-size: 1.5rem;
+			font-weight: 400;
+			padding: 1%;
+			text-decoration: none;
+		
+			&:hover {
+				color: #71cdc2;
+			}
+		}
+	}
+}
