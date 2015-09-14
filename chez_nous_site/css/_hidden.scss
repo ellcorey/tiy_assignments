@@ -7,12 +7,19 @@
 	text-align: center;
 }
 
+#logo_full {
+	display: none;
+	float: left;
+	height: 40px;
+	margin: .75rem;
+}
+
 .large_screen {
 	display: none;
 	background: #555;
 	bottom: 0;
 	height: 35px;
-	margin-bottom: 50px;
+	margin-bottom: 70px;
 	position: fixed;
 	width: 100%;
 
