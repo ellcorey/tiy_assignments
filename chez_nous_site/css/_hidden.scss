@@ -1,5 +1,12 @@
 /* items hidden by default */
 
+#contact_info {
+	color: #fff;
+	display: none;
+	margin: 0 auto;
+	text-align: center;
+}
+
 .large_screen {
 	display: none;
 	background: #555;
@@ -11,10 +18,11 @@
 
 	li {
 		display: inline-block;
+		margin: 0 auto;
 	}
 
 	.large_menu {
-
+		
 	}
 
 	.social_icons {

@@ -55,6 +55,12 @@ html {
   box-sizing: inherit; }
 
 /* items hidden by default */
+#contact_info {
+  color: #fff;
+  display: none;
+  margin: 0 auto;
+  text-align: center; }
+
 .large_screen {
   display: none;
   background: #555;
@@ -64,7 +70,8 @@ html {
   position: fixed;
   width: 100%; }
   .large_screen li {
-    display: inline-block; }
+    display: inline-block;
+    margin: 0 auto; }
   .large_screen .social_icons {
     float: right; }
 
@@ -130,16 +137,14 @@ footer {
   width: 100%; }
 
 #logo {
-  float: left; }
+  float: left;
+  height: 40px;
+  margin: 3px .75rem; }
 
 #menu_icon {
-  float: right; }
-
-#contact_info {
-  color: #fff;
-  display: inline-block;
-  margin: 0 auto;
-  text-align: center; }
+  float: right;
+  height: 25px;
+  margin: .75rem; }
 
 @media screen and (min-width: 500px) {
   section .menu_wrapper {
@@ -157,7 +162,10 @@ footer {
     margin-right: 2.35765%;
     width: 48.82117%; }
     .menu:last-child {
-      margin-right: 0; } }
+      margin-right: 0; }
+
+  #contact_info {
+    display: inline-block; } }
 @media screen and (min-width: 900px) {
   .large_screen {
     display: block; }

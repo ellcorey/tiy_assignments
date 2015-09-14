@@ -6,4 +6,8 @@
 	.menu {
 		@include span-columns(6);
 	}
+
+	#contact_info {
+		display: inline-block;
+	}
 }
