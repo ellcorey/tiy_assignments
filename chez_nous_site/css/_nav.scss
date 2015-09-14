@@ -1,18 +1,19 @@
 nav {
-	background: #3e3437;
-	border-bottom: .1rem solid #766f6f;
+	background: $background-color;
+	border-bottom: .1rem solid darken($background-color, 25%);
 	box-sizing: border-box;
 	height: 40px;
-	padding: 10px;
+	overflow: hidden;
+	padding-top: .75rem;
 	position: fixed;
-	width: 100%;
+	min-width: 295px;
 
 	ul {
 		float: left;
 	}
 
 	li {
-		color: #fff;
+		color: $primary-color;
 		display: inline-block;
 		font-family: 'Josefin sans', sans-serif;
 		font-size: 1.15rem;
@@ -21,7 +22,7 @@ nav {
 		text-decoration: none;
 	
 		&:hover {
-			color: #71cdc2;
+			color: $accent01;
 		}
 	}
 }

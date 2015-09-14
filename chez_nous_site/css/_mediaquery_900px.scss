@@ -14,12 +14,27 @@
 	.menu {
 		@include span-columns(4);
 		overflow: hidden;
+		@include omega (3n);
+
+		&:last-child {
+			clear: both;
+		}
+
+		&:nth-child(2n) {
+			margin-right: $gutter;
+		}
+
+		&:nth-child(3n) {
+			float: left;
+			clear: none;
+		}
 	}
+
 
 	#menu_title {
 		display: block;
-		width: 48%;
-		float: left;
+		// width: 48%;
+		// float: left;
 	}
 
 	#menu_icon {
@@ -30,33 +45,33 @@
 		display: none;
 	}
 
-	nav {
-	background: none;
-	border-bottom: none;
-	box-sizing: border-box;
-	float: right;
-	height: 40px;
-	margin-top: 65px;
-	padding: 10px;
-	position: static;
-	width: 50%;
+	// nav {
+	// background: none;
+	// border-bottom: none;
+	// box-sizing: border-box;
+	// display: inline;
+	// float: right;
+	// height: 40px;
+	// margin-top: 65px;
+	// padding: 10px;
+	// position: static;
 
-		ul {
-			float: right;
-		}
+	// 	ul {
+	// 		float: right;
+	// 	}
 
-		li {
-			color: $primary-color;
-			display: inline-block;
-			font-family: 'Josefin sans', sans-serif;
-			font-size: 1.5rem;
-			font-weight: 400;
-			padding: 1%;
-			text-decoration: none;
+	// 	li {
+	// 		color: $primary-color;
+	// 		display: inline-block;
+	// 		font-family: 'Josefin sans', sans-serif;
+	// 		font-size: 1.5rem;
+	// 		font-weight: 400;
+	// 		padding: 1%;
+	// 		text-decoration: none;
 		
-			&:hover {
-				color: #71cdc2;
-			}
-		}
-	}
+	// 		&:hover {
+	// 			color: #71cdc2;
+	// 		}
+	// 	}
+	// }
 }

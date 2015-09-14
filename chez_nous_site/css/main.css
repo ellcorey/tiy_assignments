@@ -82,10 +82,10 @@ html {
     float: right; }
 
 body {
-  background: #fbfbf2; }
+  background: #FFFAF4; }
 
 main {
-  padding: 50px 1.25%; }
+  padding: 50px 2%; }
 
 h1, h2, h2, h4, h5, h6, p, a {
   color: #3e3437; }
@@ -104,23 +104,25 @@ h3 {
 
 h4 {
   font-family: 'Roboto Slab', serif;
-  font-weight: 700; }
+  font-weight: 400; }
 
 p {
+  font-family: 'Roboto Slab', serif;
   font-weight: 100; }
 
 nav {
-  background: #3e3437;
-  border-bottom: .1rem solid #766f6f;
+  background: #FFFAF4;
+  border-bottom: 0.1rem solid #ffc075;
   box-sizing: border-box;
   height: 40px;
-  padding: 10px;
+  overflow: hidden;
+  padding-top: .75rem;
   position: fixed;
-  width: 100%; }
+  min-width: 295px; }
   nav ul {
     float: left; }
   nav li {
-    color: #fff;
+    color: #344254;
     display: inline-block;
     font-family: 'Josefin sans', sans-serif;
     font-size: 1.15rem;
@@ -128,14 +130,18 @@ nav {
     padding: 1%;
     text-decoration: none; }
     nav li:hover {
-      color: #71cdc2; }
+      color: #78CDB0; }
 
 .menu_items li {
   line-height: 1em;
   margin: 1.25em 0; }
 
+.menu_wrapper {
+  padding-bottom: 2rem;
+  overflow: hidden; }
+
 footer {
-  background: #3e3437;
+  background: #344254;
   border-top: .1rem solid #766f6f;
   bottom: 0;
   height: 50px;
@@ -166,9 +172,16 @@ footer {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 48.82117%; }
+    width: 48.82117%;
+    overflow: hidden; }
     .menu:last-child {
       margin-right: 0; }
+    .menu:nth-child(2n) {
+      margin-right: 0; }
+    .menu:nth-child(2n+1) {
+      clear: left; }
+    .menu:nth-child(3n) {
+      clear: both; }
 
   #contact_info {
     display: inline-block; } }
@@ -190,39 +203,25 @@ footer {
     overflow: hidden; }
     .menu:last-child {
       margin-right: 0; }
+    .menu:nth-child(3n) {
+      margin-right: 0; }
+    .menu:nth-child(3n+1) {
+      clear: left; }
+    .menu:last-child {
+      clear: both; }
+    .menu:nth-child(2n) {
+      margin-right: 1.618em; }
+    .menu:nth-child(3n) {
+      float: left;
+      clear: none; }
 
   #menu_title {
-    display: block;
-    width: 48%;
-    float: left; }
+    display: block; }
 
   #menu_icon {
     display: none; }
 
   #logo {
-    display: none; }
-
-  nav {
-    background: none;
-    border-bottom: none;
-    box-sizing: border-box;
-    float: right;
-    height: 40px;
-    margin-top: 65px;
-    padding: 10px;
-    position: static;
-    width: 50%; }
-    nav ul {
-      float: right; }
-    nav li {
-      color: #3e3437;
-      display: inline-block;
-      font-family: 'Josefin sans', sans-serif;
-      font-size: 1.5rem;
-      font-weight: 400;
-      padding: 1%;
-      text-decoration: none; }
-      nav li:hover {
-        color: #71cdc2; } }
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */

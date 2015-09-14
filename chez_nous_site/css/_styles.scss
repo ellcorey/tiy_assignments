@@ -1,16 +1,19 @@
-$primary-color: #3e3437;
+$primary-color: #344254;
+$background-color: #FFFAF4;
+$text-color: #3e3437;
+$accent01: #78CDB0;
 
 body {
-	background: #fbfbf2;
+	background: $background-color;
 }
 
 main {
-	padding: 50px 1.25%;
+	padding: 50px 2%;
 }
 
 h1, h2, h2, h4, h5, h6, p, a {
 	$em-base: 16px;
-	color: $primary-color;
+	color: $text-color;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,9 +33,10 @@ h3 {
 
 h4 {
 	font-family: 'Roboto Slab', serif;
-	font-weight: 700;
+	font-weight: 400;
 }
 
 p {
+	font-family: 'Roboto Slab', serif;
 	font-weight: 100;
 }

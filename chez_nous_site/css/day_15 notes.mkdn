@@ -1,0 +1,17 @@
+## Bootstrap
+
+Popular framework system for building sites
+Extensive collumn sizing system allows for different layouts in different screen sizes
+A lack of customization is often cited as a con of bootstrap
+sass/css is built in including styling (which must be overwritten when styling your site)
+forms are extremely recognizeable in bootstrap - 
+overriding styling may be an issue for sites that need unique branding
+can be effective for prototyping a site
+built in javascript
+built in glyphicons - allow you to change colors & sizes, and add psuedo classes easily -recognizeable as bootstrap icons - font awesome is an acceptable alternative
+
+Bootstrap compiled is faster loading than the source
+styles are located within the downloaded zip
+verify links in the head to see which stylesheets are being loaded as they may need to be moved
+
+#### you can also create your own icons (create as a font and host?)
