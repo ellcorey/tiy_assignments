@@ -19,5 +19,11 @@
 
 	nav {
 		right: 0;
+		overflow: hidden;
+		height: 3rem;
+
+		li {
+			font-size: 1.55rem;
+		}
 	}
 }

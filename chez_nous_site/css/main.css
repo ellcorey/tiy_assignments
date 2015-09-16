@@ -77,11 +77,13 @@ h3 {
 
 h4 {
   font-family: 'Roboto Slab', serif;
-  font-weight: 400; }
+  font-weight: 400;
+  line-height: 1.5em; }
 
 p {
   font-family: 'Roboto Slab', serif;
-  font-weight: 100; }
+  font-weight: 100;
+  line-height: 1.3em; }
 
 .current {
   color: #78CDB0; }
@@ -131,14 +133,16 @@ nav {
     font-family: 'Josefin sans', sans-serif;
     font-size: 1.15rem;
     font-weight: 400;
-    padding: 1%;
+    padding-right: 2.25%;
     text-decoration: none; }
     nav li:hover {
       color: #78CDB0; }
 
-.menu_items li {
-  line-height: 1em;
-  margin: 1.25em 0; }
+.menu_items {
+  padding: 0 3%; }
+  .menu_items li {
+    line-height: 1em;
+    margin: 1.25em 0; }
 
 .menu_wrapper {
   padding-bottom: 2rem;
@@ -194,7 +198,11 @@ footer {
     display: block; }
 
   nav {
-    right: 0; } }
+    right: 0;
+    overflow: hidden;
+    height: 3rem; }
+    nav li {
+      font-size: 1.55rem; } }
 @media screen and (min-width: 900px) {
   footer {
     height: 70px; }
@@ -205,7 +213,7 @@ footer {
   .large_screen {
     display: block;
     border-top: 2px solid #ffc3d4;
-    background: rgba(255, 93, 139, 0.7);
+    background: rgba(255, 93, 139, 0.82);
     bottom: 0;
     height: 50px;
     margin-bottom: 70px;
