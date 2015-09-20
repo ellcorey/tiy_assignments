@@ -1,4 +1,57 @@
+$primary_color: #000;
+$secondary_color: #eb485b;
+$highlight_color: #96ffa4;
+
+/* TEXT STYLING BELOW - INCLUDES HIGHLIGHT OPTIONS AND ABBREVIATIONS */
+
+h1, h2, h3, h4, h5, h6, p, a, abbr, {
+	$em-base: 16px;
+
+		&::selection {
+		color: #63e9fc;
+		background: black;
+		text-shadow: 1px 1px 0 $secondary_color,
+					 2px 2px 0 $secondary_color;
+	}
+}
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: "bebas-neue",sans-serif;
-  font-shadow: 2px 2px 0 #1fe8ff;
+  font-family: "bebas-neue", "oswald", sans-serif;
+  margin: 1.3em 0 .5em;
+  text-transform: uppercase;
+  text-shadow: -1px -1px 0px #63e9fc,
+  				-2px -2px 0px #63e9fc;
+
+}
+
+h1 {
+	font-size: 4em;
+}
+
+h2 {
+	font-size: 2.5em;
+}
+
+h3 {
+	font-size: 1.75em;
+}
+
+p, a, li {
+	font-family: "source code pro", monotype;
+	font-style: italic;
+	font-weight: 400;
+
+	&::selection {
+		color: $highlight_color;
+		background: black;
+	}
+}
+
+a {
+	color: $secondary_color;
+	text-decoration: none;
+
+	&:hover {
+		color: darken($secondary_color, 20%);
+	}
 }
