@@ -80,7 +80,7 @@ a {
   text-decoration: none; }
   a:hover {
     color: #b91427;
-    animation: flicker .25s linear 1; }
+    animation: flicker .25s linear infinite; }
 
 /* ANIMATIONS */
 @keyframes flicker {
@@ -109,7 +109,7 @@ header[role="banner"] {
     background-attachment: fixed;
     background-position: cover;
     bottom: 0;
-    height: 415px;
+    height: 385px;
     left: 0;
     opacity: 0.5;
     position: absolute;
@@ -126,17 +126,19 @@ header[role="banner"] {
     font-size: 2.8em;
     line-height: .5em; }
     header[role="banner"] h1::before {
-      position: relative;
-      top: 20px;
-      content: "";
-      background: url("../images/barcode.svg");
-      background-repeat: no-repeat;
-      background-size: 100%;
+      content: url("../images/barcode.svg");
       display: block;
-      margin: 0 0 25px 0;
-      padding: 0 0 1.7em 0; }
+      position: relative;
+      box-sizing: border-box;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: block;
+      margin: 0 auto;
+      max-width: 9em; }
   header[role="banner"] h2 {
-    font-size: 1.7em; }
+    font-size: 1.7em;
+    margin: 0 auto;
+    padding: 0 0 .5em 0; }
 
 h3 {
   font-size: 1.6em; }
@@ -253,7 +255,10 @@ footer {
 
   .zen-archives, .design-archives {
     height: 100%;
-    width: 50%; } }
+    width: 50%; }
+
+  .zen-resources {
+    height: 518px; } }
 @media screen and (min-width: 767px) {
   div[role="article"] {
     float: left;

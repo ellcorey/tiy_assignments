@@ -11,7 +11,7 @@ header[role="banner"] {
 			background-attachment: fixed;
 			background-position: cover;
 			bottom: 0;
-			height: 415px;
+			height: 385px;
 			left: 0;
 			opacity: 0.5;
 			position: absolute;
@@ -33,20 +33,22 @@ header[role="banner"] {
 		line-height: .5em;
 
 		&::before {
-			position: relative;
-			top: 20px;
-			content: "";
-			background: url("../images/barcode.svg");
-			background-repeat: no-repeat;
-			background-size: 100%;
+			content: url("../images/barcode.svg");
 			display: block;
-			margin: 0 0 25px 0;
-			padding: 0 0 1.7em 0;
+			position: relative;
+			box-sizing: border-box;
+			background-repeat: no-repeat;
+			background-size: cover;
+			display: block;
+			margin: 0 auto;
+			max-width: 9em;
 		}
 	}
 
 	h2 {
 		font-size: 1.7em;
+		margin: 0 auto;
+		padding: 0 0 .5em 0;
 	}
 }
 
