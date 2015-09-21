@@ -1,0 +1,25 @@
+@media screen and(min-width: 767px) {
+
+	.summary {
+
+	}
+
+	div[role="article"] {
+		float: left;
+		width: 60%;
+	}
+
+	footer {
+		clear: left;
+		width: 60
+	}
+
+	.design-selection {
+		width: 40%;
+	}
+
+
+	#zen-summary {
+		width: 100%;
+	}
+}

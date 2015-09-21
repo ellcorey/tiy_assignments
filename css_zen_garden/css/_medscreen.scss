@@ -1,5 +1,16 @@
 @media screen and(min-width: 610px) {
 
+	header[role="banner"] {
+
+		h1 {
+			font-size: 4em;
+		}
+
+		h2 {
+			font-size: 2.5em;
+		}
+	}
+
 	.design-selection {
 		float: right;
 		width: 50%;

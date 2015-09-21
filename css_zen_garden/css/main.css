@@ -81,17 +81,31 @@ a {
   a:hover {
     color: #b91427; }
 
-/* BASE STYLING - ALSO APPLIES TO X-SMALL SCREENS (sub 432px) */
+/* BASE STYLING - ALSO APPLIES TO X-SMALL SCREENS (sub 444px) */
 header[role="banner"] {
-  display: block;
-  padding: 5em .5em 1em .5em; }
+  display: block; }
+  header[role="banner"]::after {
+    content: "";
+    background: url(../images/code_img.png);
+    background-attachment: fixed;
+    background-position: cover;
+    bottom: 0;
+    height: 415px;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1; }
   header[role="banner"] h1, header[role="banner"] h2 {
     color: #000;
+    font-weight: 800;
     margin: none;
     text-align: center;
     text-shadow: none; }
   header[role="banner"] h1 {
-    font-size: 2.8em; }
+    font-size: 2.8em;
+    line-height: .5em; }
     header[role="banner"] h1::before {
       position: relative;
       top: 20px;
@@ -119,29 +133,56 @@ h3 {
       color: #39164c; }
 
 div[role="article"] {
-  padding: 1.25em;
+  padding: 1.5em;
   box-sizing: border-box; }
 
 .preamble, .participation, .requirements, .design-archives {
-  border: 0.75em solid #000;
   box-sizing: border-box; }
 
 div[class="explanation"] {
   background: #39164c;
   color: #fff; }
 
-.benefits {
-  background: #dbf52b; }
+.participation::before {
+  display: block;
+  content: "";
+  background: url(../images/malicious.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  bottom: 0;
+  height: 180px; }
+
+.benefits::after {
+  display: block;
+  content: "";
+  background: url(../images/code_img2.png);
+  background-attachment: fixed;
+  background-position: cover;
+  bottom: 0;
+  height: 200px; }
 
 footer {
-  background: #63e9fc;
+  background: #333;
   padding: 1.25em 0;
   text-align: center; }
   footer a {
     margin: .25em; }
 
+.main::after {
+  display: block;
+  content: "";
+  background: url(../images/kolnludwig.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  bottom: 0;
+  height: 180px; }
+
 .design-selection {
-  background: #e6e6e6;
+  background: #ed5a6b;
   box-sizing: border-box;
   padding: 1.25em; }
   .design-selection li {
@@ -166,24 +207,26 @@ footer {
       background: gray; }
 
 .design-archives, .zen-resources {
+  background: #dbf52b;
   box-sizing: border-box;
   padding: 1.25em; }
 
-.zen-resources {
-  background: #96ffa4; }
-
 /* STYLING FOR MEDIUM SCREEN WIDITHS */
 @media screen and (min-width: 444px) {
-  header[role="banner"] {
-    height: 280px h1, h2;
-      height-color: #000;
-      height-margin: none;
-      height-text-shadow: none; }
-    header[role="banner"] h1 {
-      font-size: 2.8em; }
-    header[role="banner"] h2 {
-      font-size: 1.7em; } }
+  header[role="banner"] h1, header[role="banner"] h2 {
+    color: #000;
+    margin: none;
+    text-shadow: none; }
+  header[role="banner"] h1 {
+    font-size: 2.8em; }
+  header[role="banner"] h2 {
+    font-size: 1.7em; } }
 @media screen and (min-width: 610px) {
+  header[role="banner"] h1 {
+    font-size: 4em; }
+  header[role="banner"] h2 {
+    font-size: 2.5em; }
+
   .design-selection {
     float: right;
     width: 50%; }
@@ -191,5 +234,19 @@ footer {
   .zen-archives, .design-archives {
     height: 100%;
     width: 50%; } }
+@media screen and (min-width: 767px) {
+  div[role="article"] {
+    float: left;
+    width: 60%; }
+
+  footer {
+    clear: left;
+    width: 60; }
+
+  .design-selection {
+    width: 40%; }
+
+  #zen-summary {
+    width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */

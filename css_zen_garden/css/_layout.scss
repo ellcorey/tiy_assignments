@@ -1,12 +1,28 @@
-/* BASE STYLING - ALSO APPLIES TO X-SMALL SCREENS (sub 432px) */
+/* BASE STYLING - ALSO APPLIES TO X-SMALL SCREENS (sub 444px) */
 
 
 header[role="banner"] {
+
 	display: block;
-	padding: 5em .5em 1em .5em;
+
+		&::after {
+			content: "";
+			background: url(../images/code_img.png);
+			background-attachment: fixed;
+			background-position: cover;
+			bottom: 0;
+			height: 415px;
+			left: 0;
+			opacity: 0.5;
+			position: absolute;
+			right: 0;
+			top: 0;
+			z-index: -1;
+		}
 
 	h1, h2 {
 		color: #000;
+		font-weight: 800;
 		margin: none;
 		text-align: center;
 		text-shadow: none;
@@ -14,6 +30,7 @@ header[role="banner"] {
 
 	h1 {
 		font-size: 2.8em;
+		line-height: .5em;
 
 		&::before {
 			position: relative;
@@ -53,12 +70,11 @@ h3 {
 }
 
 div[role="article"] {
-	padding: 1.25em;
+	padding: 1.5em;
 	box-sizing: border-box;
 }
 
 .preamble, .participation, .requirements, .design-archives {
-	border: $fat_border;
 	box-sizing: border-box;
 }
 
@@ -67,12 +83,30 @@ div[class="explanation"] {
 	color: #fff;
 }
 
-.benefits {
-	background: #dbf52b;
+.participation::before {
+	display: block;
+	content: "";
+	background: url(../images/malicious.png);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	bottom: 0;
+	height: 180px;
+}
+
+.benefits::after {
+	display: block;
+	content: "";
+	background: url(../images/code_img2.png);
+	background-attachment: fixed;
+	background-position: cover;
+	bottom: 0;
+	height: 200px;
 }
 
 footer {
-	background: #63e9fc;
+	background: #333;
 	padding: 1.25em 0;
 	text-align: center;
 
@@ -81,9 +115,21 @@ footer {
 	}
 }
 
+.main::after {
+		display: block;
+		content: "";
+		background: url(../images/kolnludwig.jpg);
+		background-attachment: fixed;
+		background-position: center;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		bottom: 0;
+		height: 180px;
+	}
+
 .design-selection {
 
-	background: shade(#fff, 10%);
+	background: tint($secondary_color, 10%);
 	box-sizing: border-box;
 	padding: 1.25em;
 
@@ -127,12 +173,9 @@ footer {
 }
 
 .design-archives, .zen-resources {
+	background: #dbf52b;
 	box-sizing: border-box;
 	padding: 1.25em;
-}
-
-.zen-resources {
-	background: $highlight_color;
 }
 
 
