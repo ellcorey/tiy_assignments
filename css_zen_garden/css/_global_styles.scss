@@ -55,5 +55,7 @@ a {
 
 	&:hover {
 		color: darken($secondary_color, 20%);
+		animation: flicker .25s linear 1;
+	
 	}
 }

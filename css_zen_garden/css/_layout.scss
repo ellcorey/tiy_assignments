@@ -74,8 +74,9 @@ div[role="article"] {
 	box-sizing: border-box;
 }
 
-.preamble, .participation, .requirements, .design-archives {
+.preamble, .participation, .requirements, .design-archives, .main {
 	box-sizing: border-box;
+	animation: flicker .5s linear 2;
 }
 
 div[class="explanation"] {
@@ -168,6 +169,7 @@ footer {
 
 		&:nth-of-type(8) {
 			background: shade(#fff, 50%);
+
 		}
 	}
 }

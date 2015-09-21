@@ -1,0 +1,36 @@
+/* ANIMATIONS */
+
+@keyframes flicker {
+	
+	0% {
+		opacity: 0;
+	}
+	
+	15% {
+		opacity: 1;
+	}
+	
+	38% {
+		opacity: 0
+	}
+	
+	52% {
+		opacity: 1;
+	}
+	
+	67% {
+		opacity: 0
+	}
+	
+	74% {
+		opacity: 1;
+	}
+	
+	88% {
+		opacity: 0
+	}
+	
+	100% {
+		opacity: 1
+	}
+}
