@@ -138,6 +138,24 @@ nav {
     nav li:hover {
       color: #78CDB0; }
 
+/* INTITIAL STYLING FOR HOME PAGE
+	THIS SECTION CONTAINS BASE LAYOUT STYLING */
+.main_header {
+  background: linear-gradient(rgba(115, 20, 60, 0.4), rgba(80, 0, 30, 0.25)), url(../images/cheznous_int_01.jpg);
+  background-size: cover;
+  background-position: 60%;
+  height: 26em; }
+  .main_header h3 {
+    background: #FF5D8B;
+    color: #FFFAF4;
+    font-weight: 400;
+    text-align: center; }
+  .main_header .header_logo {
+    display: block;
+    max-width: 12em;
+    margin: 0 auto;
+    padding-top: 5em; }
+
 .menu_items {
   padding: 5% 3%; }
   .menu_items li {

@@ -1,0 +1,26 @@
+/* INTITIAL STYLING FOR HOME PAGE
+	THIS SECTION CONTAINS BASE LAYOUT STYLING */
+
+.main_header {
+	background: 
+		linear-gradient(rgba(115, 20, 60, .40),rgba(80, 0, 30, .25)),
+		url(../images/cheznous_int_01.jpg);
+	background-size: cover;
+	background-position: 60%;
+	height: 26em;
+
+	h3 {
+		background: #FF5D8B;
+		color: $background_color;
+		font-weight:400;
+		text-align: center;
+	}
+
+	.header_logo {
+		display: block;
+		max-width: 12em;
+		margin: 0 auto;
+		padding-top: 5em;
+	}
+
+}
