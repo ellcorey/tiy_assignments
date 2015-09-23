@@ -1,0 +1,107 @@
+# UX Design Principles
+## Duolingo
+
+### Personas
+
+#### Laura
+Mid 30s marketing professional, studied abroad at a university in Portugal and was previously conversationally fluent. Travels and spends free time exploring new food and drink locations in her city. She wants to refresh her knowledge in her spare time (aprx. 3 hours/week) in preparation for an upcoming vacation to Estoril. Additionally, this time she'd like to avoid forgetting the language after her trip, so keeping up after her return is important to her.
+
+#### user scenario
+Laura received a bonus from work and decided to treat herself with a vacation back to Portugal. While attending university, she studied abroad in Portugal and was conversationally fluent in the language. After returning to the US and graduating, she concentrated heavily on her career in marketing and was unable to go back or keep her practicing knowledge of portuguese. 
+
+Laura's plan is to reimmerse herself by travelling alone, and staying either in a rented flat or room using Air B&B, or another sharing service. She's excited about the opportunity of visiting Estoril and staying in a flat for an extended period of time, but nervous about the prospect of speaking to the locals and getting around on her own. Given her busy work life, she's hoping to find a fun and effective online method to re-learn Portuguese, and regain her conversational confidence.
+
+#### use case
+previous speaker using immersion
+
+-navigate to homepage
+-click 'log in'
+-enter information or click 'sign in using facebook/google'
+-find immersion on the top nav
+-scan for a document that looks interesting
+-click decided upon document
+-find blue, boldtext
+-click blue, bold text
+-type proper translation in right-side text box
+-type comment
+-click 'submit translation'
+	-repeat 5 prior steps
+-scan light grey text
+-click light grey text
+-check translation on right column
+-click 'looks good' or 'looks wrong'
+	-repeat 4 prior steps as necessary
+-when done, click 'proofread'
+
+#### use flow
+
+
+
+#### Mike
+Late 20s and single, never sits still so always making sure to keep his calendar full with work or self-improvement related events. Just landed a new position at a large international logistics firm where he'll be communicating often with a German counterpart. He feels that not only is it necessary for him to learn German, but also that it will look good to his new employer. He's looking bolster his online learning with engaging his new coworker with casual conversation and brute force his education. The more he learns, the less he'll rely on online learning as he shifts towards conversation.
+
+#### user scenario
+Mike is all work and little play. Recently, his hard work paid off with a new job and wants to learn German to get a leg up working with a coworker. Because he sees his time as extremely valuable, he is looking for a stimulating and effective way to learn online — the sooner he can have a conversation, the better. 
+
+He previously tried learning a different language with Rosetta stone, but didn't find it engaging enough, and doesn't see private tutors or classes as effective or time effecient. Mike wants to be positive the resource he uses is the right one from the jump, otherwise it'll be wasted time and he'll be behind.
+
+#### use case
+completing a lesson
+-Mike has logged in and is now at the home page
+-click 'basics 1'
+-Mike has previously completed a couple of lessons which are shown as completed
+-click lesson 4 'begin'
+-audio plays
+-type the translated to english audio in the text box
+-click 'check' or press the 'return' key
+-the translation is correct and lower section turns green to indicate so and 3 options are shown
+	- 'report a problem'
+	- 'discuss sentence'
+	- 'continue'
+-click 'continue' or press the 'return' key
+-occasionally, an indicator will pop up pointing to a specific word with related text and a 'dismiss' button
+-user can hover over words to hear them again or click the 'speaker' icon to replay the sentence
+-a sentence is spoken
+-type the non-translated sentence into the text box
+-user can replay the sentece by clicking on the 'speaker' icon or play it slower clicking on the 'turtle' icon
+-click 'continue' or press the 'return' key
+-a sentence is shown with a drop down menu where a word is missing
+-select the appropriate missing word from the drop down menu
+-if the incorrect answer is chosen, the window bottom turns red and displays the correct translation
+-click 'continue' or press the 'return' key
+-lesson complete window shows up with an overview of today's and current status, and lingots earned
+-at this point the lesson can be reviewed or continue to the lesson overview
+
+#### use flow
+
+
+
+#### Susan
+early 40s educator who will be travelling to Argentina with her husband for a week. She is nervous about communicating and wants to take steps to learn basic communication (asking questions/directions/greetings) primarily in Spanish, maybe Italian if she's got the time. Sees this as both a challenge and fun. She's got plenty to plan for so online usage will be light and continue during her trip and perhaps after it, although she's not sure how much effort she'll put forth once she returns.
+
+#### user scenario
+In preparation for her trip to Argentina, Susan really wants to learn basic communication in other languages. While she enjoys travelling, she comes she's never travelled abroad, and locally never had a need to learn another language. In her research of Argentina as a place to visit, she learned about how multiple languages are spoken and thought it would be fun to see which language she takes too better. Her desire is part fun, but also stems from the unkown of being in a foreign country where English speakers may be difficult to find. Being an educator, she understands that learning should be enjoyable to keep your attention, but also effective enough that you retain the knowledge.
+
+####  use case
+initial start and sign up
+- initial start
+	- click get started
+	- choose language
+	- take a quick tour
+	- move on to creating an account
+- create account
+	- click on 'create a profile'
+	- fill in information or,
+	- sign in with facebook
+- find a starting point (spanish)
+	- start first lesson
+- lesson completed - add a language
+	- choose 'add a new course'
+	- find italian from the list
+	- choose start new course
+- find a starting point (italian)
+	- start first lesson
+- set daily goals
+- spend time exploring the site
+
+#### use flow
