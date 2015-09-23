@@ -9,18 +9,17 @@
 	background-position: 60%;
 	height: 26em;
 
-	h3 {
-		background: #FF5D8B;
-		color: $background_color;
-		font-weight:400;
-		text-align: center;
-	}
-
 	.header_logo {
 		display: block;
 		max-width: 12em;
 		margin: 0 auto;
 		padding-top: 5em;
 	}
+}
 
+.greeting {
+	background: #FF5D8B;
+	color: $background_color;
+	font-weight:400;
+	text-align: center;
 }

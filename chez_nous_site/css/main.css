@@ -145,16 +145,17 @@ nav {
   background-size: cover;
   background-position: 60%;
   height: 26em; }
-  .main_header h3 {
-    background: #FF5D8B;
-    color: #FFFAF4;
-    font-weight: 400;
-    text-align: center; }
   .main_header .header_logo {
     display: block;
     max-width: 12em;
     margin: 0 auto;
     padding-top: 5em; }
+
+.greeting {
+  background: #FF5D8B;
+  color: #FFFAF4;
+  font-weight: 400;
+  text-align: center; }
 
 .menu_items {
   padding: 5% 3%; }
