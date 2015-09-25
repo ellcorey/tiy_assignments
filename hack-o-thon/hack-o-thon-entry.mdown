@@ -1,0 +1,12 @@
+#hack-o-thon
+###day 01
+
+### an overview
+Every cohort at the Iron Yard goes through a group project known as the Hack-o-thon — a "grueling" weekend+ long app build where the individual cohorts are split up into teams. Each team usually consists of a combination of students from front-end development, back-end development, and UI design courses. While each cohort varies in the way the teams are organized, the goal is the same: to create a functioning web app in less than 4 days.
+
+### where there's smoke, there's fire
+This cohort, the teams were picked behind closed doors by the instructors. Without being in the room, it's impossible to know what the selection process was for pairing students up. It is possible to logically theorize though, and I believe it's similar personalities that would make the technical side easier while we climb the wall that working in a group presents.
+
+My group consists of 1 UI designer (me, Corey), 1 back-end developer (Adam), and 2 front-end developers (Bob & Whitney). We've got a strong team with incredibly diverse backgrounds but seemingly similar processes of completing our individual and group tasks. I think we're off to a killer start.
+
+### co-lab
