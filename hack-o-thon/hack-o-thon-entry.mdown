@@ -10,6 +10,6 @@ This cohort, the teams were picked behind closed doors by the instructors. Witho
 My group consists of 1 UI designer (me, Corey), 1 back-end developer (Adam), and 2 front-end developers (Bob & Whitney). We've got a strong team with incredibly diverse backgrounds but seemingly similar processes of completing our individual and group tasks. I think we're off to a killer start.
 
 ### co-laboring
-The idea we pitched was an online app where people can find collaborators on music, film, and design related projects by searching a database of users who are looking to be found. The concept came from annecdotes of someone needing to fill a spot in a band quickly, find someone with particular gear or skills for filming, or even just getting into a new environment with like minded individuals.
+The idea we pitched was an online app where people can find collaborators on music, film, and design related projects by searching a database of users who are looking to be found. The concept came from anecdotes of someone needing to fill a spot in a band quickly, find someone with particular gear or skills for filming, or even just getting into a new environment with like minded individuals.
 
-Upon pitch, it was decided that we would temporarily remove the feature for film and possibly permantly remove design. Doing so has allowed us to concentrate on a polished product for presentation on Monday.
+Upon pitch, it was decided that we would temporarily remove the feature for film and possibly permanently remove design. Doing so has allowed us to concentrate on a polished product for presentation on Monday.
