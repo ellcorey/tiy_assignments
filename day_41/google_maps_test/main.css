@@ -1,0 +1,37 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+	font-family: sans-serif;
+	letter-spacing: -.1;
+	line-height: 1.5em;
+}
+
+
+header {
+	background: #bbb;
+	height: 3em;
+	padding: 1em;
+	width: 100%;
+}
+
+header h1 {
+	margin: 0 auto;
+	text-align: center;
+}
+
+body {
+	background: #eee;
+	margin: 0;
+}
+
+#map {
+	border-radius: 5px;
+	height: 500px;
+	margin: 3% auto;
+	max-width: 60%;
+}
