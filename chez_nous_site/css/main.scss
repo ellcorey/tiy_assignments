@@ -2,17 +2,19 @@
 
 neat grid system incorporated beginning at 500px...*/
 
-@import 'reset';
-@import 'bourbon/bourbon';
-@import 'neat/neat';
-@import 'styles';
-@import 'hidden';
-@import 'nav';
-@import 'home_style';
-@import 'menu_style';
-@import 'footer';
+@import	'reset',
+		'bourbon/bourbon',
+		'neat/neat',
+		'styles',
+		'theme',
+		'core',
+		'hidden',
+		'nav',
+		'home_style',
+		'menu_style',
+		'footer',
 
 // media queries follow
 
-@import 'mediaquery_500px';
-@import 'mediaquery_900px';
+		'mediaquery_500px',
+		'mediaquery_900px';
