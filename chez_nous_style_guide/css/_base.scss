@@ -1,0 +1,66 @@
+/* BASE STYLE GUIDE STYLES (THESE DO NOT APPLY TO CHEZ NOUS SITE) */
+
+
+header {
+	background: #344254;
+	padding: 2% 5%;
+
+	h1 {
+		color: #fff;
+		margin-bottom: .5em;
+	}
+
+	h2 {
+		color: #ddd;
+	}
+}
+
+body {
+	background: #fff;
+	color: #333;
+	font-family: "lato", sans-serif;
+	margin: 0;
+}
+
+main {
+	padding: 0 5%;
+}
+
+
+/* SWATCHES - SIZING AND COLORS */
+
+.swatchWrapper {
+	border-bottom: 2px solid #ddd;
+	display: block;
+	float: left;
+	margin-bottom: 2em;
+	width: 100%;
+}
+
+.swatch {
+	height: 4em;
+}
+
+#cobaltGrey {
+	background: #344254;
+}
+
+#tablePink {
+	background: #FFFAF4;
+}
+
+#frenchPink {
+	background: #FF5D8B;
+}
+
+#bistroRed {
+	background: #4A1326;
+}
+
+#parisianTeal {
+	background: #78CDB0;
+}
+
+#clementine {
+	background: #FFA942;
+}
